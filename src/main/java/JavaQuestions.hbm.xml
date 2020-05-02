@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 28-Apr-2020, 2:07:56 pm by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="spring_quiz.JavaQuestions" table="JAVAQUESTIONS">
+        <id name="id" type="int">
+            <column name="ID" />
+           
+        </id>
+        <property name="question" type="java.lang.String">
+            <column name="QUESTION" />
+        </property>
+        <property name="optA" type="java.lang.String">
+            <column name="OPTA" />
+        </property>
+        <property name="optB" type="java.lang.String">
+            <column name="OPTB" />
+        </property>
+        <property name="optC" type="java.lang.String">
+            <column name="OPTC" />
+        </property>
+        <property name="optD" type="java.lang.String">
+            <column name="OPTD" />
+        </property>
+        <property name="correctAns" type="java.lang.String">
+            <column name="CORRECTANS" />
+        </property>
+        <property name="userAns" type="java.lang.String">
+            <column name="USERANS" />
+        </property>
+    </class>
+</hibernate-mapping>
